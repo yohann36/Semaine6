@@ -1,0 +1,27 @@
+body{
+     background-image: url('bgbd.jpg');
+}
+
+
+.container {
+    font-family: 'Indie Flower', cursive;
+    color:#c0392b;
+}
+
+
+ul {
+    list-style-type:none;
+    text-align:justify;
+}
+
+li{
+    color:black;
+}
+
+h3 {
+    text-align:center;
+}   
+
+footer{
+    padding:50px;
+}
