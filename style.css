@@ -1,11 +1,15 @@
 body{
-     background-image: url('bgbd.jpg');
+     background-image: url('photo/bgbd.jpg');
+    
+     background-attachment: fixed;
+     background-size:1900px,900px;
 }
 
 
 .container {
-    font-family: 'Indie Flower', cursive;
-    color:#c0392b;
+    font-family: 'Lobster', cursive;
+    color:#285219;
+ 
 }
 
 
@@ -16,12 +20,29 @@ ul {
 
 li{
     color:black;
+    text-shadow:100px 100px 2px white;
 }
 
-h3 {
+main h3 {
     text-align:center;
-}   
+    font-family:'Nunito',arial;
+    color:black;
+}  
+
+header{
+    background: repeating-linear-gradient(to right, rgba(0,255,0,0.5), rgba(255,0,0,0.5), rgba(0,0,255,0.5),rgba(0,0,255,0.5),rgba(255,0,0,0.5), rgba(0,255,0,0.5) 20% );
+    box-shadow:10px 10px 10px 10px  rgb(34,34,34);
+}
 
 footer{
     padding:50px;
+}
+
+form{
+    font-family:'Yanone Kaffeesatz',arial;
+    color:black;
+}
+
+footer button {
+    margin-top:20px;
 }
