@@ -23,7 +23,7 @@ li{
     text-shadow:100px 100px 2px white;
 }
 
-main h3 {
+.main_title {
     text-align:center;
     font-family:'Nunito',arial;
     color:black;
