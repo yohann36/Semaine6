@@ -14,7 +14,7 @@ header div{
         /* transition ----------*/
 header div:hover{
     background-color:#2ecc71;  
-    height:400px;
+    height:300px;
     border-radius:10px;
     box-shadow:10px 10px 5px black;
 }
@@ -22,64 +22,58 @@ header div:hover{
 /*Générale Main -----------------------------------------------------------------*/
 .container{
     width:100%;
-   
 }
 
         /* class image  ----------*/
-.xs-img-l{
-    display:inline-block;
-    width:140px;
+img{
+    box-shadow:20px 20px 40px #2c3e50;
     height:140px;
+    display:block;
     margin:auto;
-    
+    border-radius:30px;
 }
 
-.xs-img-r{
-    display:inline-block;
-    width:140px;
-    height:140px;
-    margin:auto;
+[class*='color']   {
+    border-radius:5px;
+    box-shadow:5px 5px 4px #1a1a1a;
 }
-
-.big-img{
-    display:inline-block;
-    align-items: center;
-    margin:auto;
-    
-}
-
+   
+   
 /* colonne 1 -----------------------------------------------------------------*/
 
         /* big square ----------*/
 .color1{
-    background-color:green;
-    display:inline-block;
+    background-color:#ccffcc;
     width:100%;
+    max-width:800px;
     height:420px;
+    padding-top:140px;
     margin-top:20px;
     margin-bottom:20px;
-    position: relative;  
-    align-items:center;
+    position: relative;
+    
+    
 }
 
         /* 2 small squares ----------*/
 .color2{
-    background-color:blue;
+    background-color:#66ffb3;
     display:inline-block;
+    padding-top:30px;
     width:48%;
     height:200px;
     position: relative;
-    align-items:center;
+  
 }
 
 .color3{
-    background-color:yellow;
+    background-color:#ff99ff;
     width:48%;
     height:200px;
+    padding-top:30px;
     margin-bottom:10px;
     position: relative;
     float:right;
-    align-items:center;
 }
 /* colonne 2 -----------------------------------------------------------------*/
 
@@ -89,29 +83,32 @@ header div:hover{
     display:inline-block;
     width:48%;
     height:200px;
+    padding-top:30px;
     margin-top:20px;
     margin-bottom:20px;
     position: relative;
-    align-items:center;
+    
     
 }
 
 .color5{
-    background-color:green;
+    background-color:#66ff66;
     width:48%;
     height:200px;
     position: relative;
+    padding-top:30px;
     margin-top:20px;
     margin-bottom:20px;
     float:right;
-    align-items:center;
+   
 }
 
         /* big square ----------*/
 .color6{
-    background-color:orange;
+    background-color:#ffa64d;
     width:100%;
     height:420px;
+    padding-top:140px;
     position: relative; 
     
 }
@@ -120,10 +117,11 @@ header div:hover{
         
         /* long square ----------*/
 .color7{
-    background-color:brown;
+    background-color:#997a3d;
     width:100%;
     height:200px;
     position: relative; 
+    padding-top:30px;
     margin-top:20px;
     margin-bottom:20px;
     
@@ -131,19 +129,21 @@ header div:hover{
 
         /* 4 small squares ----------*/
 .color8{
-    background-color:green;
+    background-color:#cdbb98;
     display:inline-block;
     width:48%;
     height:200px;
+    padding-top:30px;
     position: relative;
     margin-bottom:20px;
     
 }
 
 .color9{
-    background-color:grey;
+    background-color:#b4afb6;
     width:48%;
     height:200px;
+    padding-top:30px;
     position: relative;
     float:right;
     margin-bottom:20px;
@@ -152,22 +152,23 @@ header div:hover{
 }
 
 .color10{
-    background-color:pink;
+    background-color:#3498db;
     display:inline-block;
     width:48%;
+    padding-top:30px;
     height:200px;
     position: relative;
     
 }
 
 .color11{
-    background-color:red;
+    background-color:#f4aba4;
     width:48%;
     height:200px;
+    padding-top:30px;
     position: relative;
     float:right;
-    margin-left:auto;
-    margin-right:auto;
+    
 }
 
 
